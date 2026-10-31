@@ -1,0 +1,9 @@
+@echo off
+cd /d F:\talent-screen-engine
+echo Adding all new files...
+git add .
+echo Committing demo video and collaboration note...
+git commit -m "docs: add AI collaboration note, 5-minute video script, and demo walkthrough MP4"
+echo Pushing to GitHub...
+git push origin main
+echo Successfully pushed!
